@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Asap Regular";
+  src: url(./assets/fonts/asap/Asap-Regular.otf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(./assets/fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Segoe WP";
+  src: url(./assets/fonts/segoe-wp-cufonfonts/SegoeWP.ttf);
+}
+@font-face {
+  font-family: "Segoe WP Light";
+  src: url(./assets/fonts/segoe-wp-light.ttf);
+}
+@font-face {
+  font-family: "PT Sans Regular";
+  src: url(./assets/fonts/pt-sans/PTS56F.ttf);
+}
+@font-face {
+  font-family: "PT Sans Norrow Bold";
+  src: url(./assets/fonts/pt-sans/PTN77F.ttf);
+}
+.wrapper {
+  display: flex; 
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.wrapper header {
+  display: flex;
+  position: relative;
+}
+
+.navigation {
+  font-family: "Segoe WP";
+  display: flex;
+  position: absolute;
+  align-content: space-between;
+  background-color: #f5c505;
+  height: 40px;
+  width: 454px;
+  left: 731px;
+  top: 71px;
+}
+.navigation-copy1, .navigation-copy2 {
+  position: absolute;
+  background-color: #f5c505;
+  height: 40px;
+  width: 454px;
+  opacity: 0.27;
+}
+.navigation-copy1 {
+  left: 728px;
+  top: 66px;
+}
+.navigation-copy2 {
+  left: 725px;
+  top: 62px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 26px;
+ 
+  }
+header {
+  background-image: url(./assets/img/backgroundheader.svg);
+  height: 566px;
+}
+h1 {
+  font-size: 41px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Segoe WP";
+  font-style: italic;
+  letter-spacing: 0px;
+  margin-top: 9px;
+}
+.about, .contact, .services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: solid gray 1px;
+  font-family: "Segoe WP";
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #9b7d08;
+  letter-spacing: 0px;
+}
+.about{
+  width: 172px;
+}
+.services {
+  width: 132px;
+}
+.contact {
+  width: 146px;
+  border-right: none;
+}
+.about div {
+  width: 85px;
+}
+.about img {
+  width: 42px;
+  margin-left: 13px;
+}
+.services img {
+  width: 42px;
+  margin-left: -16px;
+}
+.contact img {
+  width: 25px;
+  margin-right: 6px;
+}
+.contact div {
+  margin-right: 4px
+}
+.logo img {
+  width: 89px;
+}
