@@ -22,6 +22,9 @@
   font-family: "PT Sans Norrow Bold";
   src: url(./assets/fonts/pt-sans/PTN77F.ttf);
 }
+body {
+  width: 100%;
+}
 .wrapper {
   display: flex; 
   max-width: 1024px;
@@ -67,6 +70,8 @@
   }
 header {
   background-image: url(./assets/img/backgroundheader.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 566px;
 }
 h1 {
@@ -286,4 +291,160 @@ h2 p {
 }
 .free {
   border-right: 1px solid #00000018;
+}
+.section-main {
+  height: 505px;
+  background-image: url(./assets/img/Layer10copy3.svg)
+}
+.wrapper-section-main {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  }
+.scroll-header {
+  display: flex;
+  width: 1024px;
+}
+.scroll-header h3 {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  font-size: 37px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 341px;
+  height: 231px;
+  background-color: #ec9e03;
+}
+ .summary p { 
+  display: flex;
+  align-items: center;
+  width: 279px;
+  height: 233px;
+  font-size: 29px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe WP Light";
+  font-weight: 300;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+.summary img {
+  display: flex;
+  width: 11px;
+  height: 11px;
+  align-self: flex-end;
+  margin-right: 13px;
+  margin-bottom: 12px;
+}
+.player-secondary {
+  display: flex;
+  width: 314px;
+  height: 231px;
+}
+.player-secondary video {
+  object-fit: cover;
+  object-position: 21%;
+  width: 314px;
+  height: 231px;
+}
+#play-secondary {
+  width: 61px;
+  height: 61px;
+  display: flex;
+  position: relative;
+  margin-top: 92px;
+  margin-left: 131px;
+  background-color: #c6a80b;
+  border-radius: 50%;
+  border: 0;
+}
+#play-secondary img {
+  display: flex;
+  margin-left: 18px;
+}
+.twitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 329px;
+  height: 231px;
+  margin-left: 36px;
+  background-color: #ec9e03;
+}
+.date {
+  display: flex;
+  width: 113px;
+  height: 86px;
+  background-color: #ddb101;
+}
+.number {
+  width: 51px;
+  height: 34px;
+  font-size: 51px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+.month {
+  width: 47px;
+  height: 36px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #b26529;
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+}
+.twitter p {
+  align-self: flex-end;
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Segoe WP Light";
+  font-weight: 300;
+  margin-right: 18px;
+  margin-top: 9px;
+}
+#plus2 {
+  align-self: flex-end;
+  margin-bottom: 11px;
+  margin-right: 9px;
+}
+#twitter-icon {
+  margin-top: -4px;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+}
+.scroll {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: -38px;
+  height: 147px;
+}
+
+
+.scroll div {
+  position: absolute;
+  left: 484px;
+  margin-top: 3px;
 }
