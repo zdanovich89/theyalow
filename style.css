@@ -44,7 +44,7 @@ body {
 }
 
 .navigation {
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", Arial, Helvetica, sans-serif;
   display: flex;
   position: absolute;
   align-content: space-between;
@@ -74,7 +74,7 @@ h1 {
   font-size: 41px;
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", Arial, Helvetica, sans-serif;
   font-style: italic;
   letter-spacing: 2px;
   margin-top: 9px;
@@ -85,7 +85,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border-right: solid gray 1px;
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 17px;
   color: #9b7d08;
@@ -240,7 +240,7 @@ h2 {
   font-size: 63px;
   letter-spacing: 1px;
   color: #f5c506;
-  font-family: "Asap Regular";
+  font-family: "Asap Regular", Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -273,7 +273,7 @@ h2 p {
   font-size: 27px;
   letter-spacing: 0px;
   color: #000000;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -352,7 +352,7 @@ h2 p {
   font-size: 37px;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -375,7 +375,7 @@ h2 p {
   letter-spacing: 0px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe WP Light";
+  font-family: "Segoe WP Light", Arial, Helvetica, sans-serif;
   font-weight: 300;
   margin-top: 13px;
   margin-left: 5px;
@@ -445,7 +445,7 @@ h2 p {
   letter-spacing: 1px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -456,7 +456,7 @@ h2 p {
   letter-spacing: 0px;
   line-height: 38px;
   color: #b26529;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
@@ -466,7 +466,7 @@ h2 p {
   letter-spacing: 0px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe WP Light";
+  font-family: "Segoe WP Light",Arial, Helvetica, sans-serif;
   font-weight: 300;
   margin-right: 18px;
   margin-top: 9px;
@@ -530,7 +530,7 @@ h2 p {
   color: #f5c506;
   font-size: 44px;
   letter-spacing: 0px;
-  font-family: "Segoe WP Light";
+  font-family: "Segoe WP Light", Arial, Helvetica, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -553,7 +553,7 @@ h2 p {
   font-size: 19px;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: "PT Sans Norrow Bold";
+  font-family: "PT Sans Norrow Bold", Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -592,7 +592,7 @@ li {
   font-size: 22px;
   letter-spacing: 0px;
   color: #a9a9a7;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
   margin-left: 102px;
   padding-left: 10px;
@@ -648,7 +648,7 @@ footer {
   font-size: 29px;
   letter-spacing: 1px;
   color: #ffffff;
-  font-family: "Segoe WP";
+  font-family: "Segoe WP", Arial, Helvetica, sans-serif;
   font-style: italic;
   text-align: center;
   text-transform: uppercase;
