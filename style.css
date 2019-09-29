@@ -2,34 +2,42 @@
   font-family: "Asap Regular";
   src: url(./assets/fonts/asap/Asap-Regular.otf);
 }
+
 @font-face {
   font-family: "Open Sans";
   src: url(./assets/fonts/open-sans/OpenSans-Regular.ttf);
 }
+
 @font-face {
   font-family: "Segoe WP";
   src: url(./assets/fonts/segoe-wp-cufonfonts/SegoeWP.ttf);
 }
+
 @font-face {
   font-family: "Segoe WP Light";
   src: url(./assets/fonts/segoe-wp-light.ttf);
 }
+
 @font-face {
   font-family: "PT Sans Regular";
   src: url(./assets/fonts/pt-sans/PTS56F.ttf);
 }
+
 @font-face {
   font-family: "PT Sans Norrow Bold";
   src: url(./assets/fonts/pt-sans/PTN77F.ttf);
 }
+
 body {
   width: 100%;
 }
+
 .wrapper {
   display: flex; 
   max-width: 1024px;
   margin: 0 auto;
 }
+
 .wrapper header {
   display: flex;
   position: relative;
@@ -45,44 +53,33 @@ body {
   width: 454px;
   left: 731px;
   top: 71px;
+  box-shadow: -4px -4px 0px #f5c50541, -7px -8px 0px #f5c50541;
 }
-.navigation-copy1, .navigation-copy2 {
-  position: absolute;
-  background-color: #f5c505;
-  height: 40px;
-  width: 454px;
-  opacity: 0.27;
-}
-.navigation-copy1 {
-  left: 728px;
-  top: 66px;
-}
-.navigation-copy2 {
-  left: 725px;
-  top: 62px;
-}
+
 .logo {
   display: flex;
   align-items: center;
   position: absolute;
   top: 26px;
- 
-  }
+}
+
 header {
   background-image: url(./assets/img/backgroundheader.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 566px;
 }
+
 h1 {
   font-size: 41px;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Segoe WP";
   font-style: italic;
-  letter-spacing: 0px;
+  letter-spacing: 2px;
   margin-top: 9px;
 }
+
 .about, .contact, .services {
   display: flex;
   align-items: center;
@@ -94,50 +91,61 @@ h1 {
   color: #9b7d08;
   letter-spacing: 0px;
 }
+
 .about{
   width: 172px;
 }
+
 .services {
   width: 132px;
 }
+
 .contact {
   width: 146px;
   border-right: none;
 }
+
 .about div {
   width: 85px;
 }
+
 .about img {
   width: 42px;
   margin-left: 13px;
 }
+
 .services img {
   width: 42px;
   margin-left: -16px;
 }
+
 .contact img {
   width: 25px;
   margin-right: 6px;
 }
+
 .contact div {
   margin-right: 4px
 }
 .logo img {
   width: 89px;
 }
+
 .slider {
   position: relative;
   width: 100%;
 }
+
 #slider-left {
-position: absolute;
-top: 300px;
-left: 0px;
-background-color: #cca60c;
-height: 57px;
-width: 32px;
-border: none;
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  background-color: #cca60c;
+  height: 57px;
+  width: 32px;
+  border: none;
 }
+
 #slider-right {
   position: absolute;
   top: 300px;
@@ -147,6 +155,7 @@ border: none;
   width: 32px;
   border: none;
 }
+
 .player {
   position: relative;
   width: 550px;
@@ -154,6 +163,7 @@ border: none;
   top: -397px;
   left: 13px;
   }
+
 video {
   position: absolute;
   width: 550px;
@@ -161,6 +171,7 @@ video {
   object-fit: cover;
   object-position: 77%;
   }
+
   #play-main {
     background-color: #e0cf40;
     border-radius: 50%;
@@ -171,9 +182,11 @@ video {
     top: 129px;
     left: 241px;
   }
+
   #play-main img {
     margin-left: 2px;
   }
+
   #play-progress {
     position: absolute;
     background-color: #7b610f;
@@ -183,10 +196,12 @@ video {
     left: 29px;
     border: none;
   }
+
   #play-progress img {
     margin-left: 3px;
     margin-top: 2px;
 }
+
 progress {
   position: absolute;
   width: 404px;
@@ -197,14 +212,17 @@ progress {
   left: 80px;
   border-radius: 5px 5px 5px 5px;  
 }
+
 ::-webkit-progress-value {
   background: #f5c507;
   border-radius: 5px 0px 0px 5px;
 }
+
 ::-webkit-progress-bar {
   background: #72804844;
   border-radius: 5px 5px 5px 5px;
 }
+
 #sound {
   position: absolute;
   background: none;
@@ -212,9 +230,11 @@ progress {
   top: 283px;
   left: 507px;
 }
+
 .name {
   position: absolute;
 }
+
 h2 {
   position: relative;
   font-size: 63px;
@@ -229,9 +249,11 @@ h2 {
   left: 605px;
   line-height: 122.2%;
 }
+
 h2 p {
   color: #ffffff;
 }
+
 .icons {
   background-image: url("./assets/img/Layer7.png");
   height: 212px;
@@ -239,12 +261,14 @@ h2 p {
   display: flex;
   box-shadow: 5px 2px 10px #000000e1;
   }
+
 .wrapper-icons {
-    display: flex;
-    max-width: 1024px;
-    margin: 0 auto;
-    align-items: center;
-    }
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .icons div {
   font-size: 27px;
   letter-spacing: 0px;
@@ -255,15 +279,18 @@ h2 p {
   text-transform: uppercase;
   justify-content: center;
 }
+
 .design img {
   margin-left: -4px;
   margin-top: 20px;
   margin-bottom: 6px;
 }
+
 .design div {
   margin-top: 11px;
   margin-left: 23px;
 }
+
 .design, .customise, .free {
   display: flex;
   flex-direction: column;
@@ -272,44 +299,52 @@ h2 p {
   height: 100%;
   border-left: 1px solid #00000018;
 }
+
 .customise img {
   margin-top: 1px;
   margin-left: 22px;
 }
+
 .customise div {
   margin-top: 16px;
   margin-left: 21px;
 }
+
 .free img {
   margin-bottom: 10px;
   margin-top: 17px;
   margin-left: -21px;
 }
+
 .free div {
   margin-left: -16px;
   margin-top: 2px;
 }
+
 .free {
   border-right: 1px solid #00000018;
 }
+
 .section-main {
   height: 505px;
   background-image: url(./assets/img/Layer10copy3.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  z-index:-1;
-  position:relative;
+  box-shadow: inset 0px 2px 10px #000000e1;
 }
+
 .wrapper-section-main {
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
-  }
+}
+
 .scroll-header {
   display: flex;
   width: 1024px;
 }
+
 .scroll-header h3 {
   display: flex;
   align-items: center;
@@ -321,6 +356,7 @@ h2 p {
   font-weight: 400;
   text-transform: uppercase;
 }
+
 .summary {
   display: flex;
   flex-direction: column;
@@ -329,6 +365,7 @@ h2 p {
   height: 231px;
   background-color: #ec9e03;
 }
+
  .summary p { 
   display: flex;
   align-items: center;
@@ -343,6 +380,7 @@ h2 p {
   margin-top: 13px;
   margin-left: 5px;
 }
+
 .summary img {
   display: flex;
   width: 11px;
@@ -350,18 +388,22 @@ h2 p {
   align-self: flex-end;
   margin-right: 13px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
+
 .player-secondary {
   display: flex;
   width: 314px;
   height: 231px;
 }
+
 .player-secondary video {
   object-fit: cover;
   object-position: 21%;
   width: 314px;
   height: 231px;
 }
+
 #play-secondary {
   width: 61px;
   height: 61px;
@@ -373,10 +415,12 @@ h2 p {
   border-radius: 50%;
   border: 0;
 }
+
 #play-secondary img {
   display: flex;
   margin-left: 18px;
 }
+
 .twitter {
   display: flex;
   flex-direction: column;
@@ -386,12 +430,14 @@ h2 p {
   margin-left: 36px;
   background-color: #ec9e03;
 }
+
 .date {
   display: flex;
   width: 113px;
   height: 86px;
   background-color: #ddb101;
 }
+
 .number {
   width: 51px;
   height: 34px;
@@ -402,6 +448,7 @@ h2 p {
   font-family: "Segoe UI";
   font-weight: bold;
 }
+
 .month {
   width: 47px;
   height: 36px;
@@ -412,6 +459,7 @@ h2 p {
   font-family: "Segoe UI";
   text-transform: uppercase;
 }
+
 .twitter p {
   align-self: flex-end;
   font-size: 25px;
@@ -423,14 +471,18 @@ h2 p {
   margin-right: 18px;
   margin-top: 9px;
 }
+
 #plus2 {
   align-self: flex-end;
   margin-bottom: 11px;
   margin-right: 9px;
-}
+  cursor: pointer;
+  }
+
 #twitter-icon {
   margin-top: -4px;
 }
+
 .date {
   display: flex;
   flex-direction: column;
@@ -438,6 +490,7 @@ h2 p {
   justify-content: flex-end;
   margin-bottom: 45px;
 }
+
 .scroll {
   display: flex;
   justify-content: flex-end;
@@ -446,31 +499,33 @@ h2 p {
   height: 147px;
 }
 
-
 .scroll div {
   position: absolute;
   left: 484px;
   margin-top: 3px;
 }
+
 .information {
   background-image: url("./assets/img/Layer32.png");
   height: 497px;
   width: 100%;
 }
+
 .wrapper-information { 
   max-width: 1024px;
   margin: 0 auto;
   display: flex; 
   flex-flow: row wrap;
 }
+
 .header-information {
   display: flex;
   width: 100%;
   height: 129px;
   align-items: center;
   justify-content: center;
-
 }
+
 .header-information h3 {
   color: #f5c506;
   font-size: 44px;
@@ -479,10 +534,12 @@ h2 p {
   font-weight: 400;
   text-transform: uppercase;
 }
+
 .inf-desktop img{
   margin-left: 21px;
   margin-top: 10px;
 }
+
 #banner {
   position: relative;
   top: -299px;
@@ -500,32 +557,35 @@ h2 p {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .inf-tablet {
   display: flex;
   align-items: end;
   margin-top: 53px;
   margin-left: 24px;
 }
+
 .inf-mobile {
   display: flex;
   margin-top: 5px;
   margin-left: 24px;
 }
+
 .inf-list {
   display: flex;
   justify-content: space-between;
 }
-li:before {
-  content: url("./assets/img/Ellipse4.svg");
-  margin-right: 19px;
-}
+
+
 .inf-list ul{
+  list-style-image: url("./assets/img/Ellipse4.svg");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 218px;
   list-style-position: outside;
 }
+
 li {
   width: 352px;
   height: 45px;
@@ -534,29 +594,65 @@ li {
   color: #a9a9a7;
   font-family: "Open Sans";
   font-weight: 400;
-  margin-left: 79px;
+  margin-left: 102px;
+  padding-left: 10px;
+  line-height: 1.09;
 }
+
 #li-first {
   margin-top: 57px;
 }
+
 #li-second {
   margin-top: 27px;
 }
+
 #li-third {
   margin-top: 21px;
 }
+
 #li-fourth {
   margin-top: 30px;
 }
+
 footer {
   width: 100%;
   background-color: #4c4c4c;
+  box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
 }
+
 .footer-wrapper {
   max-width: 1024px;
   margin: 0 auto;
   display: flex; 
   height: 64px;
+  align-items: center;
+  }
+
+.footer-logo {
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.footer-logo img {
+  width: 54px;
+  height: 54px;
+}
+
+.footer-banner{
+  width: 177px;
+  height: 23px;
+}
+
+.footer-banner p{
+  font-size: 29px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Segoe WP";
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
 }
 
 
